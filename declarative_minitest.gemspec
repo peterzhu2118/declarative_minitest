@@ -14,4 +14,6 @@ Gem::Specification.new do |s|
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
 
   s.required_ruby_version = '>= 2.2.2'
+
+  s.add_dependency 'minitest', '>= 5.0'
 end
