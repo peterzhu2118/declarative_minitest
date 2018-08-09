@@ -21,5 +21,25 @@ module Minitest
         end
       end
     end
+
+    def self.setup(&block)
+      if block_given?
+        define_method(:setup, &block)
+      else
+        define_method(:setup) do
+          flunk "No implementation provided for #{name}"
+        end
+      end
+    end
+
+    def self.teardown(&block)
+      if block_given?
+        define_method(:teardown, &block)
+      else
+        define_method(:teardown) do
+          flunk "No implementation provided for #{name}"
+        end
+      end
+    end
   end
 end
