@@ -11,7 +11,7 @@ module DeclarativeMinitest
     end
 
     teardown do
-      puts "Teardown"
+      puts 'Teardown'
     end
   end
 end
