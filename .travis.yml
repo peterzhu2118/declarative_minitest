@@ -8,10 +8,10 @@ install:
 before_script:
   - bundle update
 rvm:
+  - 2.6
   - 2.5
   - 2.4
-  - 2.2
-  - jruby-9.2.0.0
+  - jruby-head
 jobs:
   include:
     - stage: Lint
