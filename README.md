@@ -9,7 +9,7 @@ $ gem install declarative_minitest
 ```
 or add to your `Gemfile`:
 ```
-gem 'declarative_minitest', '~> 0.1.1'
+gem 'declarative_minitest', '~> 0.1.2'
 ```
 
 ## How to use
