@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.description = 'Ports Rails declarative minitest into regular minitest'
   s.license     = 'MIT'
 
-  s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
+  s.files = Dir['lib/**/*', 'MIT-LICENSE', 'README.md']
 
   s.required_ruby_version = '>= 2.2.2'
 
